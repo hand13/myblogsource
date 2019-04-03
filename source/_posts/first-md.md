@@ -15,5 +15,5 @@ after place this code
 {% codeblock lang:c++ %}
 LLVMInitializeNativeAsmPrinter();
 LLVMInitializeNativeAsmParser();
-<% endcodeblock %>
+{% endcodeblock %}
 before the initialize target code,I solved my problem.
