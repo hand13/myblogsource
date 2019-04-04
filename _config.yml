@@ -91,7 +91,7 @@ live2d:
     use: live2d-widget-model-shizuku
   display:
     position: right
-    width: 75
-    height: 150
+    width: 100
+    height: 200
   mobile:
     show: false
