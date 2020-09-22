@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hand13.git.io
+url: https://hand13.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -40,6 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
+  hljs: true
   line_number: true
   auto_detect: false
   tab_replace:
@@ -73,7 +74,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+# theme: hexo-theme-next
+theme: arknights
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,7 +83,6 @@ deploy:
   type: git
   repo:
     github: git@github.com:hand13/hand13.github.io.git
-    coffee: git@git.dev.tencent.com:hand13/myblog.git
   branch: master
 live2d:
   enable: true
