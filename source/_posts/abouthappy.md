@@ -4,7 +4,7 @@ date: 2020-09-12 10:30:47
 tags:
 - haskell
 category:
-- few
+- Program
 - 编程
 ---
 
